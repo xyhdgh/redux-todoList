@@ -1,0 +1,6 @@
+export const ADD_TODO_REQUEST = "add_todo_request"
+export const DELETE_TODO = "delete_todo"
+export const DELETE_ALL_TODOS = "delete_all_todos"
+export const FILTER_TODOS = "filter_todos"
+export const ADD_TODO_SUCCESS = "add_todo_success"
+export const ADD_TODO_FAILURE = "add_todo_failure"
