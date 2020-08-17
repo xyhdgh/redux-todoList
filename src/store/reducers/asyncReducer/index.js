@@ -2,6 +2,7 @@ import { ADD_TODO_REQUEST, ADD_TODO_SUCCESS, ADD_TODO_FAILURE } from '../../cons
 let initailState = {}
 
 const asyncReducer = (state = initailState, action) => {
+  console.log('action::', action)
   switch (action.type) {
     case ADD_TODO_REQUEST:
       return {
